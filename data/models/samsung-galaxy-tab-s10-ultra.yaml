@@ -1,0 +1,39 @@
+id: samsung-galaxy-tab-s10-ultra
+maker: Samsung
+series: Galaxy Tab S10
+modelName: Samsung Galaxy Tab S10 Ultra
+modelNumber: SM-X920
+formFactor: tablet
+releaseDate: '2024-10-03'
+os: { family: Android, edition: null, version: null }
+copilotPlusPc: false
+imageKey: null
+imageUrl: null
+productUrl: https://www.samsung.com/jp/tablets/galaxy-tab-s10/
+cpu:
+  vendor: MediaTek
+  family: Dimensity
+  model: Dimensity 9300+
+  isa: ARM64
+  npuTops: null
+  benchmarks: {}
+memory: { capacityGB: 12, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: 16 }
+storage: { capacityGB: 256, interface: UFS, userReplaceable: false }
+display: { sizeInch: 14.6, resolution: { width: 2960, height: 1848 }, panelType: AMOLED, touch: true, aspectRatio: null, refreshRateHz: 120, brightnessNits: null, pen: true }
+connectivity: { wifi: { standard: 'Wi-Fi 7' }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 1, spec: 'USB 3.2' }, usbA: 0, hdmi: null, cardReader: microSD, audioJack: false }
+battery:
+  capacityWh: 43
+  ratedLife: []
+  charger: { watt: 45, usbPd: true }
+physical: { weightG: 718, dimensions: { width: 326.4, depth: 208.6, thicknessMax: 5.4 }, chassisMaterial: アルミニウム }
+io:
+  webcam: { resolution: '12MP', ir: false, privacyShutter: false }
+  windowsHello: { face: true, fingerprint: true }
+  keyboard: null
+pricing: { priceJpy: 184800, priceType: street, variants: [] }
+sources:
+  - { publisher: Samsung（日本）, url: https://www.samsung.com/jp/tablets/galaxy-tab-s10/, retrievedAt: '2026-06-20' }
+  - { field: 仕様（重量・電池容量mAh・寸法）, publisher: GSMArena, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_ultra-13362.php, retrievedAt: '2026-06-20' }
+  - { field: capacityWh（11200mAh×公称3.85Vからの換算値）, publisher: 換算（GSMArena mAh 値より）, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_ultra-13362.php, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'
