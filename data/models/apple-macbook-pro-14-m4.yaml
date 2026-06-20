@@ -1,0 +1,26 @@
+id: apple-macbook-pro-14-m4
+maker: Apple
+series: MacBook Pro
+modelName: MacBook Pro 14インチ (M4)
+modelNumber: MW2U3J/A
+formFactor: clamshell
+releaseDate: '2024-11-08'
+os: { family: macOS, edition: null, version: Sequoia }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://www.apple.com/jp/macbook-pro/images/meta/macbook-pro__difvbgz1plsi_og.png?202605242332
+productUrl: https://www.apple.com/jp/macbook-pro/
+cpu: { vendor: Apple, family: Apple M4, model: M4, isa: ARM64, npuTops: 38, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 16, type: unified, speedMTps: null, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 512, interface: SSD, userReplaceable: false }
+display: { sizeInch: 14.2, resolution: { width: 3024, height: 1964 }, panelType: miniLED, touch: false, aspectRatio: '16:10', refreshRateHz: 120, brightnessNits: 600, pen: false }
+connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 3, spec: 'Thunderbolt 4' }, usbA: 0, hdmi: 'HDMI 2.1', cardReader: SD, audioJack: true }
+battery: { capacityWh: 72.4, ratedLife: [{ method: Apple TV app movie playback, hours: 24 }], charger: { watt: 70, usbPd: true } }
+physical: { weightG: 1550, dimensions: { width: 312.6, depth: 221.2, thicknessMax: 15.5 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: '12MP', ir: false, privacyShutter: false }, windowsHello: { face: false, fingerprint: true }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 248800, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Apple, url: https://www.apple.com/jp/macbook-pro/specs/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Apple, url: https://www.apple.com/jp/macbook-pro/, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

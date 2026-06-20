@@ -1,0 +1,26 @@
+id: microsoft-surface-laptop-studio-2
+maker: Microsoft
+series: Surface Laptop Studio
+modelName: Surface Laptop Studio 2
+modelNumber: Z1S-00018
+formFactor: convertible
+releaseDate: '2023-10-03'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/FL1C-BB-00
+productUrl: https://www.microsoft.com/en-us/d/surface-laptop-studio-2/8rqr54krf1dz
+cpu: { vendor: Intel, family: Core 13th Gen, model: Core i7-13700H, isa: x86-64, npuTops: null, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 16, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: 64 }
+storage: { capacityGB: 512, interface: 'NVMe SSD', userReplaceable: true }
+display: { sizeInch: 14.4, resolution: { width: 2400, height: 1600 }, panelType: PixelSense Flow, touch: true, aspectRatio: '3:2', refreshRateHz: 120, brightnessNits: 500, pen: true }
+connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 2, spec: 'Thunderbolt 4' }, usbA: 1, hdmi: null, cardReader: microSD, audioJack: true }
+battery: { capacityWh: 58, ratedLife: [{ method: Microsoft typical device usage, hours: 18 }], charger: { watt: 120, usbPd: true } }
+physical: { weightG: 1890, dimensions: { width: 323.3, depth: 230.5, thicknessMax: 21.1 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: FHD, ir: true, privacyShutter: false }, windowsHello: { face: true, fingerprint: false }, keyboard: { backlight: true, layout: US } }
+pricing: { priceJpy: 349800, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Microsoft, url: https://www.microsoft.com/en-us/d/surface-laptop-studio-2/8rqr54krf1dz, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Microsoft, url: https://www.microsoft.com/en-us/d/surface-laptop-studio-2/8rqr54krf1dz, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

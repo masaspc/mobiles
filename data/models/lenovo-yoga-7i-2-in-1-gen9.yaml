@@ -1,0 +1,26 @@
+id: lenovo-yoga-7i-2-in-1-gen9
+maker: Lenovo
+series: Yoga 7i 2-in-1
+modelName: Yoga 7i 2-in-1 Gen 9 (16型 Intel)
+modelNumber: 83DL
+formFactor: convertible
+releaseDate: '2024-03-01'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://p3-ofp.static.pub//fes/cms/2024/09/19/4io7l3g87kj5vajysyr4bs00q7ktxs176032.png
+productUrl: https://www.lenovo.com/jp/ja/p/laptops/yoga/yoga-2-in-1-series/yoga-7-2-in-1-gen-10-14-inch-intel/len101y0047
+cpu: { vendor: Intel, family: Core Ultra Series 1, model: Core Ultra 7 155U, isa: x86-64, npuTops: 11, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 16, type: LPDDR5X, speedMTps: 7467, soldered: true, maxCapacityGB: 16 }
+storage: { capacityGB: 512, interface: 'NVMe PCIe Gen4', userReplaceable: true }
+display: { sizeInch: 16, resolution: { width: 1920, height: 1200 }, panelType: IPS, touch: true, aspectRatio: '16:10', refreshRateHz: 60, brightnessNits: 300, pen: true }
+connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 2, spec: 'Thunderbolt 4' }, usbA: 2, hdmi: 'HDMI 2.1', cardReader: microSD, audioJack: true }
+battery: { capacityWh: 71, ratedLife: [], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 1990, dimensions: { width: 356, depth: 248, thicknessMax: 17.4 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: FHD, ir: true, privacyShutter: true }, windowsHello: { face: true, fingerprint: true }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 199870, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Lenovo, url: https://www.lenovo.com/jp/ja/p/laptops/yoga/yoga-2-in-1-series/yoga-7-2-in-1-gen-10-14-inch-intel/len101y0047, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Lenovo, url: https://www.lenovo.com/jp/ja/p/laptops/yoga/yoga-2-in-1-series/yoga-7-2-in-1-gen-10-14-inch-intel/len101y0047, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

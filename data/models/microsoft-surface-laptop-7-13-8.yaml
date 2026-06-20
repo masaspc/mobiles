@@ -1,0 +1,26 @@
+id: microsoft-surface-laptop-7-13-8
+maker: Microsoft
+series: Surface Laptop
+modelName: Surface Laptop (第7世代, 13.8型)
+modelNumber: ZXX-00020
+formFactor: clamshell
+releaseDate: '2024-06-18'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: true
+imageKey: null
+imageUrl: https://images.ctfassets.net/jy9s7k22hbg4/7vvUfkCAzo0Dqi4g39wEaS/c6c1012de6f2e45be421a2cf60b17d43/msft-surface-laptop-hero-desktop-multi-poster-fy26.jpg
+productUrl: https://www.microsoft.com/ja-jp/surface/devices/surface-laptop-7th-edition
+cpu: { vendor: Qualcomm, family: Snapdragon X, model: Snapdragon X Elite, isa: ARM64, npuTops: 45, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 16, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 512, interface: 'NVMe SSD', userReplaceable: true }
+display: { sizeInch: 13.8, resolution: { width: 2304, height: 1536 }, panelType: PixelSense Flow, touch: true, aspectRatio: '3:2', refreshRateHz: 120, brightnessNits: 600, pen: true }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.4', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 2, spec: USB4 }, usbA: 1, hdmi: null, cardReader: null, audioJack: true }
+battery: { capacityWh: 54, ratedLife: [{ method: Microsoft local video playback, hours: 20 }], charger: { watt: 39, usbPd: true } }
+physical: { weightG: 1340, dimensions: { width: 301.7, depth: 220, thicknessMax: 17.5 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: FHD, ir: true, privacyShutter: false }, windowsHello: { face: true, fingerprint: false }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 207680, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Microsoft, url: https://www.microsoft.com/ja-jp/surface/devices/surface-laptop-7th-edition, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Microsoft, url: https://www.microsoft.com/ja-jp/surface/devices/surface-laptop-7th-edition, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

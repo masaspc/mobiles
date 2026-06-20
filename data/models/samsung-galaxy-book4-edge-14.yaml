@@ -1,0 +1,26 @@
+id: samsung-galaxy-book4-edge-14
+maker: Samsung
+series: Galaxy Book4 Edge
+modelName: Galaxy Book4 Edge 14インチ
+modelNumber: NP940XMA-KD1JP
+formFactor: clamshell
+releaseDate: '2024-07-01'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: true
+imageKey: null
+imageUrl: https://image-us.samsung.com/SamsungUS/home/computing/galaxy-books/galaxy-book4-edge/10162024/new/Galaxy_Book4_Edge_14_US_002_Top-Open_1600x1200.jpg
+productUrl: https://www.samsung.com/jp/computers/galaxy-book/galaxy-book4-edge-14-inch-x1p-16gb-512gb-np940xma-kd1jp/
+cpu: { vendor: Qualcomm, family: Snapdragon X, model: Snapdragon X Elite, isa: ARM64, npuTops: 45, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 16, type: LPDDR5X, speedMTps: 8448, soldered: true, maxCapacityGB: 16 }
+storage: { capacityGB: 512, interface: 'NVMe SSD', userReplaceable: true }
+display: { sizeInch: 14, resolution: { width: 2880, height: 1800 }, panelType: AMOLED, touch: true, aspectRatio: '16:10', refreshRateHz: 120, brightnessNits: 400, pen: false }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 2, spec: USB4 }, usbA: 1, hdmi: 'HDMI 2.1', cardReader: microSD, audioJack: true }
+battery: { capacityWh: 55.9, ratedLife: [], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 1160, dimensions: { width: 312.3, depth: 223.8, thicknessMax: 10.9 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: FHD, ir: true, privacyShutter: false }, windowsHello: { face: true, fingerprint: true }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 249800, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Samsung, url: https://www.samsung.com/jp/computers/galaxy-book/galaxy-book4-edge-14-inch-x1p-16gb-512gb-np940xma-kd1jp/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Samsung, url: https://www.samsung.com/jp/computers/galaxy-book/galaxy-book4-edge-14-inch-x1p-16gb-512gb-np940xma-kd1jp/, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

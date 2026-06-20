@@ -1,0 +1,26 @@
+id: asus-chromebook-plus-cm34-flip
+maker: ASUS
+series: Chromebook Plus CM34 Flip
+modelName: Chromebook Plus CM34 Flip (CM3401)
+modelNumber: CM3401FFA
+formFactor: convertible
+releaseDate: '2023-10-01'
+os: { family: ChromeOS, edition: null, version: null }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://dlcdnwebimgs.asus.com/gain/97b06d78-fec7-473a-8211-5597b4f0ef10/
+productUrl: https://www.asus.com/laptops/for-home/chromebook/asus-chromebook-plus-cm34-flip-cm3401/
+cpu: { vendor: AMD, family: Ryzen 7000C, model: Ryzen 3 7320C, isa: x86-64, npuTops: null, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 8, type: LPDDR5, speedMTps: null, soldered: true, maxCapacityGB: 16 }
+storage: { capacityGB: 128, interface: UFS, userReplaceable: false }
+display: { sizeInch: 14, resolution: { width: 1920, height: 1200 }, panelType: IPS, touch: true, aspectRatio: '16:10', refreshRateHz: 60, brightnessNits: 300, pen: true }
+connectivity: { wifi: { standard: Wi-Fi 6 }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 2, spec: USB-C }, usbA: 1, hdmi: 'HDMI 1.4', cardReader: microSD, audioJack: true }
+battery: { capacityWh: 63, ratedLife: [], charger: { watt: 45, usbPd: true } }
+physical: { weightG: 1860, dimensions: { width: 319.4, depth: 233.9, thicknessMax: 20.7 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: FHD, ir: false, privacyShutter: true }, windowsHello: { face: false, fingerprint: false }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 99800, priceType: msrp, variants: [] }
+sources:
+  - { publisher: ASUS, url: https://www.asus.com/laptops/for-home/chromebook/asus-chromebook-plus-cm34-flip-cm3401/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: ASUS, url: https://www.asus.com/laptops/for-home/chromebook/asus-chromebook-plus-cm34-flip-cm3401/, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'
