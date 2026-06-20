@@ -2,4 +2,4 @@
 import { getCollection } from 'astro:content'; import SiteShell from '../components/SiteShell.astro'; import ModelExplorer from '../components/ModelExplorer'; import { deriveModel } from '../data/schema';
 const models = (await getCollection('models')).map(entry => deriveModel(entry.data));
 ---
-<SiteShell><ModelExplorer models={models} client:load /></SiteShell>
+<SiteShell><ModelExplorer models={models} client:idle /></SiteShell>
