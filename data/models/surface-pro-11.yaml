@@ -8,6 +8,7 @@ releaseDate: '2024-06-18'
 os: { family: Windows, edition: Home, version: '11' }
 copilotPlusPc: true
 imageKey: null
+imageUrl: https://images.ctfassets.net/jy9s7k22hbg4/6xisTyY2KH5VXtvXW953L7/d38af826f4c7836e5ae4d4a0fc0fbfd9/Surface_Pro_100_Hero_Desktop_Dune-1920x1080.jpg
 productUrl: https://www.microsoft.com/ja-jp/surface/devices/surface-pro-11th-edition
 cpu:
   vendor: Qualcomm
@@ -18,12 +19,17 @@ cpu:
   benchmarks: { geekbench6Multi: 14200 }
 memory: { capacityGB: 16, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: 32 }
 storage: { capacityGB: 512, interface: 'NVMe SSD', userReplaceable: true }
-display: { sizeInch: 13, resolution: { width: 2880, height: 1920 }, panelType: OLED, touch: true }
+display: { sizeInch: 13, resolution: { width: 2880, height: 1920 }, panelType: OLED, touch: true, aspectRatio: '3:2', refreshRateHz: 120, brightnessNits: 600, pen: true }
 connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.4', wwan: { type: none } }
-ports: { thunderbolt: false, usbPd: true }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 2, spec: USB4 }, usbA: 0, hdmi: null, cardReader: null, audioJack: false }
 battery: { capacityWh: 48, ratedLife: [{ method: Microsoft local video playback, hours: 14 }], charger: { watt: 39, usbPd: true } }
-physical: { weightG: 895, dimensions: { width: 287, depth: 209, thicknessMax: 9.3 } }
+physical: { weightG: 895, dimensions: { width: 287, depth: 209, thicknessMax: 9.3 }, chassisMaterial: アルミニウム }
+io:
+  webcam: { resolution: QHD, ir: true, privacyShutter: false }
+  windowsHello: { face: true, fingerprint: false }
+  keyboard: { backlight: true, layout: JIS }
 pricing: { priceJpy: 207680, priceType: msrp, variants: [] }
 sources:
   - { publisher: Microsoft, url: https://www.microsoft.com/ja-jp/surface/devices/surface-pro-11th-edition, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Microsoft, url: https://www.microsoft.com/ja-jp/surface/devices/surface-pro-11th-edition, retrievedAt: '2026-06-20' }
 lastUpdated: '2026-06-20'

@@ -12,3 +12,14 @@ button { cursor: pointer; }
 .control { @apply rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm dark:border-slate-600 dark:bg-slate-800; }
 .label { @apply mb-1 block text-xs font-semibold tracking-wide text-slate-600 dark:text-slate-300; }
 .chip { @apply inline-flex items-center gap-1 rounded-full bg-cyan-50 px-2 py-1 text-xs text-cyan-900 dark:bg-cyan-950 dark:text-cyan-100; }
+.category-performance { --category-color: #f6a93b; }
+.category-display { --category-color: #b89bff; }
+.category-connectivity { --category-color: #36cfe6; }
+.category-portability { --category-color: #4fd394; }
+.category-battery { --category-color: #b6e64f; }
+.category-io { --category-color: #f47bb0; }
+.category-panel { border-left: 4px solid var(--category-color); }
+.category-title { color: var(--category-color); }
+.badge-dot { background: var(--category-color); }
+.product-image { aspect-ratio: 4 / 3; object-fit: contain; }
+.product-placeholder { @apply flex items-center justify-center bg-slate-100 text-5xl text-slate-400 dark:bg-slate-800 dark:text-slate-500; aspect-ratio: 4 / 3; }
