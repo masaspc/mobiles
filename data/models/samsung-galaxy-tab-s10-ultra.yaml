@@ -8,7 +8,7 @@ releaseDate: '2024-10-03'
 os: { family: Android, edition: null, version: null }
 copilotPlusPc: false
 imageKey: null
-imageUrl: null
+imageUrl: https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s10-ultra.jpg
 productUrl: https://www.samsung.com/jp/tablets/galaxy-tab-s10/
 cpu:
   vendor: MediaTek
@@ -36,4 +36,5 @@ sources:
   - { publisher: Samsung（日本）, url: https://www.samsung.com/jp/tablets/galaxy-tab-s10/, retrievedAt: '2026-06-20' }
   - { field: 仕様（重量・電池容量mAh・寸法）, publisher: GSMArena, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_ultra-13362.php, retrievedAt: '2026-06-20' }
   - { field: capacityWh（11200mAh×公称3.85Vからの換算値）, publisher: 換算（GSMArena mAh 値より）, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_ultra-13362.php, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: GSMArena, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_ultra-13362.php, retrievedAt: '2026-06-20' }
 lastUpdated: '2026-06-20'

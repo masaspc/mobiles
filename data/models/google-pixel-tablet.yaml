@@ -8,7 +8,7 @@ releaseDate: '2023-06-20'
 os: { family: Android, edition: null, version: null }
 copilotPlusPc: false
 imageKey: null
-imageUrl: null
+imageUrl: https://fdn2.gsmarena.com/vv/bigpic/google-pixel-tablet-1.jpg
 productUrl: https://store.google.com/jp/product/pixel_tablet
 cpu:
   vendor: Google
@@ -35,4 +35,5 @@ pricing: { priceJpy: 79800, priceType: street, variants: [] }
 sources:
   - { publisher: Google ストア（日本）, url: https://store.google.com/jp/product/pixel_tablet, retrievedAt: '2026-06-20' }
   - { field: 仕様（重量・電池・寸法）, publisher: GSMArena, url: https://www.gsmarena.com/google_pixel_tablet-11905.php, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: GSMArena, url: https://www.gsmarena.com/google_pixel_tablet-11905.php, retrievedAt: '2026-06-20' }
 lastUpdated: '2026-06-20'
