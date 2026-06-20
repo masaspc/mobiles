@@ -28,3 +28,5 @@ jobs:
         run: npm test
       - name: Type check & build (astro check + build)
         run: npm run build
+      - name: Verify generated internal links
+        run: npm run check:links

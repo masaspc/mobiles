@@ -8,6 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "validate": "tsx scripts/validate-data.ts",
+    "check:links": "tsx scripts/check-links.ts",
     "test": "vitest run"
   },
   "dependencies": {
