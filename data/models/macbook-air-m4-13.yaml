@@ -8,6 +8,7 @@ releaseDate: '2025-03-05'
 os: { family: macOS, edition: null, version: Sequoia }
 copilotPlusPc: false
 imageKey: null
+imageUrl: https://www.apple.com/jp/macbook-air/images/meta/macbook_air_mx__ez5y0k5yy7au_og.png?202605242332
 productUrl: https://www.apple.com/jp/macbook-air/
 cpu:
   vendor: Apple
@@ -18,12 +19,17 @@ cpu:
   benchmarks: { geekbench6Multi: 14800 }
 memory: { capacityGB: 16, type: unified, speedMTps: null, soldered: true, maxCapacityGB: 32 }
 storage: { capacityGB: 256, interface: SSD, userReplaceable: false }
-display: { sizeInch: 13.6, resolution: { width: 2560, height: 1664 }, panelType: Liquid Retina, touch: false }
+display: { sizeInch: 13.6, resolution: { width: 2560, height: 1664 }, panelType: Liquid Retina, touch: false, aspectRatio: '16:10', refreshRateHz: 60, brightnessNits: 500, pen: false }
 connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: none } }
-ports: { thunderbolt: true, usbPd: true }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 2, spec: 'Thunderbolt 4' }, usbA: 0, hdmi: null, cardReader: null, audioJack: true }
 battery: { capacityWh: 52.6, ratedLife: [{ method: Apple TV app movie playback, hours: 18 }], charger: { watt: 30, usbPd: true } }
-physical: { weightG: 1240, dimensions: { width: 304.1, depth: 215, thicknessMax: 11.3 } }
+physical: { weightG: 1240, dimensions: { width: 304.1, depth: 215, thicknessMax: 11.3 }, chassisMaterial: アルミニウム }
+io:
+  webcam: { resolution: '12MP', ir: false, privacyShutter: false }
+  windowsHello: { face: false, fingerprint: false }
+  keyboard: { backlight: true, layout: JIS }
 pricing: { priceJpy: 164800, priceType: msrp, variants: [] }
 sources:
   - { publisher: Apple, url: https://www.apple.com/jp/macbook-air/specs/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Apple, url: https://www.apple.com/jp/macbook-air/, retrievedAt: '2026-06-20' }
 lastUpdated: '2026-06-20'
