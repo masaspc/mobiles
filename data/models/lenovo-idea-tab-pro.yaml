@@ -1,0 +1,41 @@
+id: lenovo-idea-tab-pro
+maker: Lenovo
+series: Idea Tab
+modelName: Lenovo Idea Tab Pro
+modelNumber: null
+formFactor: tablet
+releaseDate: null
+os: { family: Android, edition: null, version: '14' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://fdn2.gsmarena.com/vv/bigpic/lenovo-idea-tab-pro.jpg
+productUrl: https://www.lenovo.com/jp/ja/tablets/
+cpu:
+  vendor: MediaTek
+  family: Dimensity
+  model: Dimensity 8300
+  isa: ARM64
+  npuTops: null
+  benchmarks: {}
+memory: { capacityGB: 8, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: null }
+storage: { capacityGB: 256, interface: 'UFS 4.0', userReplaceable: false }
+display: { sizeInch: 12.7, resolution: { width: 2944, height: 1840 }, panelType: LCD, touch: true, aspectRatio: null, refreshRateHz: 144, brightnessNits: 400, pen: true }
+connectivity: { wifi: { standard: 'Wi-Fi 6E' }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 1, spec: 'USB-C' }, usbA: 0, hdmi: null, cardReader: microSD, audioJack: false }
+battery:
+  capacityWh: 39
+  ratedLife: []
+  charger: { watt: 45, usbPd: true }
+physical: { weightG: 620, dimensions: { width: 291.8, depth: 189.1, thicknessMax: 6.9 }, chassisMaterial: null }
+io:
+  webcam: { resolution: '8MP', ir: false, privacyShutter: false }
+  windowsHello: { face: true, fingerprint: true }
+  keyboard: null
+pricing: { priceJpy: 54780, priceType: street, variants: [] }
+sources:
+  - { publisher: Lenovo（日本）, url: https://www.lenovo.com/jp/ja/tablets/, retrievedAt: '2026-06-20' }
+  - { field: 価格・発売（日本）, publisher: phablet.jp, url: https://phablet.jp/?p=139057, retrievedAt: '2026-06-20' }
+  - { field: 仕様（画面・電池mAh・寸法・充電）, publisher: GSMArena, url: https://www.gsmarena.com/lenovo_idea_tab_pro-13733.php, retrievedAt: '2026-06-20' }
+  - { field: capacityWh（10200mAh×公称3.85Vからの換算値）, publisher: 換算（GSMArena mAh 値より）, url: https://www.gsmarena.com/lenovo_idea_tab_pro-13733.php, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: GSMArena, url: https://www.gsmarena.com/lenovo_idea_tab_pro-13733.php, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

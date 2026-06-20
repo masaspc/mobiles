@@ -1,0 +1,41 @@
+id: xiaomi-pad-7-pro
+maker: Xiaomi
+series: Xiaomi Pad 7
+modelName: Xiaomi Pad 7 Pro
+modelNumber: null
+formFactor: tablet
+releaseDate: '2025-03-13'
+os: { family: Android, edition: HyperOS 2, version: null }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://fdn2.gsmarena.com/vv/bigpic/xiaomi-pad-7-pro.jpg
+productUrl: https://www.mi.com/jp/product/xiaomi-pad-7-pro/
+cpu:
+  vendor: Qualcomm
+  family: Snapdragon
+  model: Snapdragon 8s Gen 3
+  isa: ARM64
+  npuTops: null
+  benchmarks: {}
+memory: { capacityGB: 12, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: 12 }
+storage: { capacityGB: 512, interface: UFS, userReplaceable: false }
+display: { sizeInch: 11.2, resolution: { width: 3200, height: 2136 }, panelType: LCD, touch: true, aspectRatio: '3:2', refreshRateHz: 144, brightnessNits: null, pen: true }
+connectivity: { wifi: { standard: 'Wi-Fi 6E' }, bluetooth: '5.4', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 1, spec: 'USB-C' }, usbA: 0, hdmi: null, cardReader: null, audioJack: false }
+battery:
+  capacityWh: 34
+  ratedLife: []
+  charger: { watt: 67, usbPd: true }
+physical: { weightG: 500, dimensions: { width: 251.2, depth: 173.4, thicknessMax: 6.2 }, chassisMaterial: アルミニウム }
+io:
+  webcam: { resolution: '32MP', ir: false, privacyShutter: false }
+  windowsHello: null
+  keyboard: null
+pricing: { priceJpy: 81980, priceType: street, variants: [] }
+sources:
+  - { publisher: Xiaomi（日本）, url: https://www.mi.com/jp/product/xiaomi-pad-7-pro/, retrievedAt: '2026-06-20' }
+  - { field: 価格・発売日（日本）, publisher: ケータイ Watch, url: https://k-tai.watch.impress.co.jp/docs/news/1669429.html, retrievedAt: '2026-06-20' }
+  - { field: 仕様（重量・寸法・電池mAh）, publisher: GSMArena, url: https://www.gsmarena.com/xiaomi_pad_7_pro-13474.php, retrievedAt: '2026-06-20' }
+  - { field: capacityWh（8850mAh×公称3.85Vからの換算値）, publisher: 換算（GSMArena mAh 値より）, url: https://www.gsmarena.com/xiaomi_pad_7_pro-13474.php, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: GSMArena, url: https://www.gsmarena.com/xiaomi_pad_7_pro-13474.php, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

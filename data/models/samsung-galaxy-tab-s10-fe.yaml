@@ -1,0 +1,41 @@
+id: samsung-galaxy-tab-s10-fe
+maker: Samsung
+series: Galaxy Tab S10
+modelName: Samsung Galaxy Tab S10 FE
+modelNumber: SM-X520
+formFactor: tablet
+releaseDate: '2025-04-18'
+os: { family: Android, edition: null, version: '15' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s10-fe.jpg
+productUrl: https://www.samsung.com/jp/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-128gb-sm-x520nzaaxjp/
+cpu:
+  vendor: Samsung
+  family: Exynos
+  model: Exynos 1580
+  isa: ARM64
+  npuTops: null
+  benchmarks: {}
+memory: { capacityGB: 8, type: LPDDR5, speedMTps: null, soldered: true, maxCapacityGB: null }
+storage: { capacityGB: 128, interface: UFS, userReplaceable: false }
+display: { sizeInch: 10.9, resolution: { width: 2304, height: 1440 }, panelType: LCD, touch: true, aspectRatio: null, refreshRateHz: 90, brightnessNits: null, pen: true }
+connectivity: { wifi: { standard: 'Wi-Fi 6' }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 1, spec: 'USB-C' }, usbA: 0, hdmi: null, cardReader: microSD, audioJack: false }
+battery:
+  capacityWh: 31
+  ratedLife: []
+  charger: { watt: 45, usbPd: true }
+physical: { weightG: 497, dimensions: { width: 254.3, depth: 165.8, thicknessMax: 6.0 }, chassisMaterial: アルミニウム }
+io:
+  webcam: { resolution: '12MP', ir: false, privacyShutter: false }
+  windowsHello: { face: true, fingerprint: true }
+  keyboard: null
+pricing: { priceJpy: 83820, priceType: street, variants: [] }
+sources:
+  - { publisher: Samsung（日本）, url: https://www.samsung.com/jp/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-128gb-sm-x520nzaaxjp/, retrievedAt: '2026-06-20' }
+  - { field: 価格・発売（日本）, publisher: Samsung Newsroom Japan, url: https://news.samsung.com/jp/galaxy-tabs10fes-onsale, retrievedAt: '2026-06-20' }
+  - { field: 仕様（重量・電池mAh・寸法）, publisher: GSMArena, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_fe-13761.php, retrievedAt: '2026-06-20' }
+  - { field: capacityWh（8000mAh×公称3.85Vからの換算値）, publisher: 換算（GSMArena mAh 値より）, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_fe-13761.php, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: GSMArena, url: https://www.gsmarena.com/samsung_galaxy_tab_s10_fe-13761.php, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'
