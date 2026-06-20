@@ -1,0 +1,4 @@
+---
+import { getCollection } from 'astro:content'; import SiteShell from '../components/SiteShell.astro'; import ChartView from '../components/ChartView'; import { deriveModel } from '../data/schema'; const models=(await getCollection('models')).map(e=>deriveModel(e.data));
+---
+<SiteShell title="チャート | Mobiles"><ChartView models={models} client:visible /></SiteShell>

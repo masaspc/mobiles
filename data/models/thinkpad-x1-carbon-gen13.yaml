@@ -1,0 +1,29 @@
+id: thinkpad-x1-carbon-gen13
+maker: Lenovo
+series: ThinkPad X1 Carbon
+modelName: ThinkPad X1 Carbon Gen 13 Aura Edition
+modelNumber: 21NS
+formFactor: clamshell
+releaseDate: '2025-01-01'
+os: { family: Windows, edition: Pro, version: '11' }
+copilotPlusPc: true
+imageKey: null
+productUrl: https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-13-14-inch-intel/len101t0109
+cpu:
+  vendor: Intel
+  family: Core Ultra Series 2
+  model: Core Ultra 7 258V
+  isa: x86-64
+  npuTops: 47
+  benchmarks: { geekbench6Multi: 10800 }
+memory: { capacityGB: 32, type: LPDDR5X, speedMTps: 8533, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 1024, interface: 'NVMe PCIe Gen4', userReplaceable: true }
+display: { sizeInch: 14, resolution: { width: 2880, height: 1800 }, panelType: OLED, touch: false }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.4', wwan: { type: '5G Sub-6' } }
+ports: { thunderbolt: true, usbPd: true }
+battery: { capacityWh: 57, ratedLife: [{ method: JEITA 3.0 video playback, hours: 10.5 }], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 986, dimensions: { width: 312.8, depth: 214.75, thicknessMax: 14.37 } }
+pricing: { priceJpy: 310000, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Lenovo, url: https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-carbon-gen-13-14-inch-intel/len101t0109, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

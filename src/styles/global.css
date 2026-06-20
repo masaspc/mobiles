@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme { --color-ink: #10233f; --color-brand: #146c94; --color-mist: #eff8fb; }
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root { color-scheme: light; font-family: Inter, "Noto Sans JP", system-ui, sans-serif; background:#f7fafc; color:#10233f; }
+:root.dark { color-scheme: dark; background:#0b1320; color:#e6edf7; }
+body { margin: 0; min-width: 320px; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+.surface { @apply rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-900; }
+.control { @apply rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm dark:border-slate-600 dark:bg-slate-800; }
+.label { @apply mb-1 block text-xs font-semibold tracking-wide text-slate-600 dark:text-slate-300; }
+.chip { @apply inline-flex items-center gap-1 rounded-full bg-cyan-50 px-2 py-1 text-xs text-cyan-900 dark:bg-cyan-950 dark:text-cyan-100; }

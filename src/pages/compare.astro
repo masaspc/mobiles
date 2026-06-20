@@ -1,0 +1,5 @@
+---
+import { getCollection } from 'astro:content'; import SiteShell from '../components/SiteShell.astro'; import CompareView from '../components/CompareView'; import { deriveModel } from '../data/schema';
+const models=(await getCollection('models')).map(e=>deriveModel(e.data));
+---
+<SiteShell title="比較 | Mobiles"><CompareView models={models} client:load /></SiteShell>

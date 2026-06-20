@@ -1,0 +1,24 @@
+# Copy into data/models/<id>.yaml. Do not add this template itself to data/models.
+id: example-model
+maker: Example
+series: Example Series
+modelName: Example Mobile PC
+modelNumber: null
+formFactor: clamshell
+releaseDate: null
+os: { family: Windows, edition: null, version: null }
+copilotPlusPc: false
+imageKey: null
+productUrl: https://example.com/product
+cpu: { vendor: Intel, family: Example, model: Example, isa: x86-64, npuTops: null, benchmarks: {} }
+memory: { capacityGB: 16, type: null, speedMTps: null, soldered: null, maxCapacityGB: null }
+storage: { capacityGB: 512, interface: null, userReplaceable: null }
+display: { sizeInch: 14, resolution: null, panelType: null, touch: false }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: null, wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true }
+battery: { capacityWh: 60, ratedLife: [], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 1100, dimensions: { width: 310, depth: 220, thicknessMax: 15 } }
+pricing: { priceJpy: 200000, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Example, url: https://example.com/spec, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

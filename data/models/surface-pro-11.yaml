@@ -1,0 +1,29 @@
+id: surface-pro-11
+maker: Microsoft
+series: Surface Pro
+modelName: Surface Pro (第11世代)
+modelNumber: ZIA-00011
+formFactor: detachable
+releaseDate: '2024-06-18'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: true
+imageKey: null
+productUrl: https://www.microsoft.com/ja-jp/surface/devices/surface-pro-11th-edition
+cpu:
+  vendor: Qualcomm
+  family: Snapdragon X
+  model: Snapdragon X Elite
+  isa: ARM64
+  npuTops: 45
+  benchmarks: { geekbench6Multi: 14200 }
+memory: { capacityGB: 16, type: LPDDR5X, speedMTps: null, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 512, interface: 'NVMe SSD', userReplaceable: true }
+display: { sizeInch: 13, resolution: { width: 2880, height: 1920 }, panelType: OLED, touch: true }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.4', wwan: { type: none } }
+ports: { thunderbolt: false, usbPd: true }
+battery: { capacityWh: 48, ratedLife: [{ method: Microsoft local video playback, hours: 14 }], charger: { watt: 39, usbPd: true } }
+physical: { weightG: 895, dimensions: { width: 287, depth: 209, thicknessMax: 9.3 } }
+pricing: { priceJpy: 207680, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Microsoft, url: https://www.microsoft.com/ja-jp/surface/devices/surface-pro-11th-edition, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

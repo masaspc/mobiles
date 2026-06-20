@@ -1,0 +1,44 @@
+import { z } from 'zod';
+
+export const sourceSchema = z.object({ field: z.string().optional(), publisher: z.string().min(1), url: z.string().url(), retrievedAt: z.string().date() });
+const nullableNumber = z.number().nullable().optional();
+
+export const modelSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/), maker: z.string().min(1), series: z.string().nullable().optional(),
+  modelName: z.string().min(1), modelNumber: z.string().nullable().optional(),
+  formFactor: z.enum(['clamshell', 'convertible', 'detachable', 'tablet']), releaseDate: z.string().date().nullable().optional(),
+  os: z.object({ family: z.enum(['Windows', 'macOS', 'ChromeOS', 'iPadOS']), edition: z.string().nullable().optional(), version: z.string().nullable().optional() }),
+  copilotPlusPc: z.boolean().default(false), imageKey: z.string().nullable().optional(), productUrl: z.string().url(),
+  cpu: z.object({ vendor: z.enum(['Intel', 'AMD', 'Qualcomm', 'Apple']), family: z.string(), model: z.string(), isa: z.enum(['x86-64', 'ARM64']), npuTops: nullableNumber,
+    benchmarks: z.object({ cinebench2024Multi: nullableNumber, geekbench6Multi: nullableNumber, passmarkMulti: nullableNumber }).default({}) }),
+  memory: z.object({ capacityGB: z.number().positive(), type: z.string().nullable().optional(), speedMTps: nullableNumber, soldered: z.boolean().nullable().optional(), maxCapacityGB: nullableNumber }),
+  storage: z.object({ capacityGB: z.number().positive(), interface: z.string().nullable().optional(), userReplaceable: z.boolean().nullable().optional() }),
+  display: z.object({ sizeInch: z.number().positive(), resolution: z.object({ width: z.number(), height: z.number() }).nullable().optional(), panelType: z.string().nullable().optional(), touch: z.boolean().default(false) }),
+  connectivity: z.object({ wifi: z.object({ standard: z.string() }), bluetooth: z.string().nullable().optional(), wwan: z.object({ type: z.enum(['none','LTE','5G Sub-6','5G mmWave']) }).nullable().optional() }),
+  ports: z.object({ thunderbolt: z.boolean().default(false), usbPd: z.boolean().default(false) }).default({ thunderbolt: false, usbPd: false }),
+  battery: z.object({ capacityWh: z.number().positive(), ratedLife: z.array(z.object({ method: z.string(), hours: z.number().positive() })).default([]), charger: z.object({ watt: z.number().positive(), usbPd: z.boolean() }) }),
+  physical: z.object({ weightG: z.number().min(300).max(3000), dimensions: z.object({ width: z.number().positive(), depth: z.number().positive(), thicknessMax: z.number().positive() }) }),
+  pricing: z.object({ priceJpy: z.number().positive(), priceType: z.enum(['msrp','street']), variants: z.array(z.object({ label:z.string(), memoryGB:z.number(), storageGB:z.number(), priceJpy:z.number() })).default([]) }),
+  sources: z.array(sourceSchema).min(1), lastUpdated: z.string().date(),
+});
+
+export type Model = z.infer<typeof modelSchema>;
+export type DerivedModel = Model & { footprintCm2: number; volumeCm3: number; performancePerWeight: number | null; performancePerPrice: number | null; batteryDensity: number; portabilityScore: number };
+
+const clamp = (value: number) => Math.max(0, Math.min(100, value));
+export function deriveModel(model: Model): DerivedModel {
+  const { width, depth, thicknessMax } = model.physical.dimensions;
+  const footprintCm2 = width * depth / 100;
+  const volumeCm3 = width * depth * thicknessMax / 1000;
+  const batteryDensity = model.battery.capacityWh / model.physical.weightG;
+  // Fixed public ranges: weight 800–1600g, volume 500–1600cm³, density 0.035–0.075Wh/g.
+  const weightScore = clamp((1600 - model.physical.weightG) / 8);
+  const volumeScore = clamp((1600 - volumeCm3) / 11);
+  const densityScore = clamp((batteryDensity - .035) / .0004);
+  const performance = model.cpu.benchmarks.cinebench2024Multi ?? model.cpu.benchmarks.geekbench6Multi ?? null;
+  return { ...model, footprintCm2, volumeCm3, batteryDensity, portabilityScore: Math.round((weightScore + volumeScore + densityScore) / 3), performancePerWeight: performance ? performance / model.physical.weightG : null, performancePerPrice: performance ? performance / model.pricing.priceJpy : null };
+}
+
+export const coreModelSchema = modelSchema.superRefine((m, ctx) => {
+  if (m.connectivity.wwan === undefined) ctx.addIssue({ code:'custom', message:'connectivity.wwan must be supplied (use {type: none})' });
+});
