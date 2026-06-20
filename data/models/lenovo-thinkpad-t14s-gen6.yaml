@@ -1,0 +1,26 @@
+id: lenovo-thinkpad-t14s-gen6
+maker: Lenovo
+series: ThinkPad T14s Gen 6
+modelName: ThinkPad T14s Gen 6 (14型 Snapdragon)
+modelNumber: 21N1
+formFactor: clamshell
+releaseDate: '2024-06-01'
+os: { family: Windows, edition: Pro, version: '11' }
+copilotPlusPc: true
+imageKey: null
+imageUrl: https://p4-ofp.static.pub/ShareResource/JPResource/JP-Images/products/lenovo-thinkpad-t14s-gen-6/lenovo-thinkpad-t14s-gen-6-14-inch-1280x724-1.png
+productUrl: https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadt/thinkpad-t14s-gen-6-14-inch-snapdragon/21n1000lus
+cpu: { vendor: Qualcomm, family: Snapdragon X, model: Snapdragon X Elite, isa: ARM64, npuTops: 45, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 32, type: LPDDR5X, speedMTps: 8533, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 1024, interface: 'NVMe PCIe Gen4', userReplaceable: true }
+display: { sizeInch: 14, resolution: { width: 1920, height: 1200 }, panelType: IPS, touch: false, aspectRatio: '16:10', refreshRateHz: 60, brightnessNits: 500, pen: false }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.4', wwan: { type: '5G Sub-6' } }
+ports: { thunderbolt: false, usbPd: true, usbC: { count: 2, spec: USB4 }, usbA: 2, hdmi: 'HDMI 2.1', cardReader: null, audioJack: true }
+battery: { capacityWh: 58, ratedLife: [], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 1240, dimensions: { width: 313.6, depth: 219.4, thicknessMax: 16.9 }, chassisMaterial: マグネシウム }
+io: { webcam: { resolution: '5MP', ir: true, privacyShutter: true }, windowsHello: { face: true, fingerprint: true }, keyboard: { backlight: true, layout: US } }
+pricing: { priceJpy: 279000, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Lenovo, url: https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadt/thinkpad-t14s-gen-6-14-inch-snapdragon/21n1000lus, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Lenovo, url: https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadt/thinkpad-t14s-gen-6-14-inch-snapdragon/21n1000lus, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

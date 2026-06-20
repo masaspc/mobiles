@@ -1,0 +1,26 @@
+id: asus-zenbook-s-14-ux5406
+maker: ASUS
+series: Zenbook S 14
+modelName: Zenbook S 14 (UX5406)
+modelNumber: UX5406SA
+formFactor: clamshell
+releaseDate: '2024-09-01'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: true
+imageKey: null
+imageUrl: https://dlcdnwebimgs.asus.com/gain/78f5d41a-4ba6-4490-82ec-cbac2d6c131f/
+productUrl: https://www.asus.com/jp/laptops/for-home/zenbook/asus-zenbook-s-14-ux5406/
+cpu: { vendor: Intel, family: Core Ultra Series 2, model: Core Ultra 7 258V, isa: x86-64, npuTops: 47, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 32, type: LPDDR5X, speedMTps: 8533, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 1024, interface: 'NVMe PCIe Gen4', userReplaceable: true }
+display: { sizeInch: 14, resolution: { width: 2880, height: 1800 }, panelType: OLED, touch: false, aspectRatio: '16:10', refreshRateHz: 120, brightnessNits: 500, pen: false }
+connectivity: { wifi: { standard: Wi-Fi 7 }, bluetooth: '5.4', wwan: { type: none } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 2, spec: 'Thunderbolt 4' }, usbA: 1, hdmi: 'HDMI 2.1', cardReader: null, audioJack: true }
+battery: { capacityWh: 72, ratedLife: [], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 1200, dimensions: { width: 310.3, depth: 214.7, thicknessMax: 12.9 }, chassisMaterial: Ceraluminum }
+io: { webcam: { resolution: FHD, ir: true, privacyShutter: false }, windowsHello: { face: true, fingerprint: false }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 299800, priceType: msrp, variants: [] }
+sources:
+  - { publisher: ASUS, url: https://www.asus.com/jp/laptops/for-home/zenbook/asus-zenbook-s-14-ux5406/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: ASUS, url: https://www.asus.com/jp/laptops/for-home/zenbook/asus-zenbook-s-14-ux5406/, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

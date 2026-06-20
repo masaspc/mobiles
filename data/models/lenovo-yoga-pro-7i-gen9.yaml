@@ -1,0 +1,26 @@
+id: lenovo-yoga-pro-7i-gen9
+maker: Lenovo
+series: Yoga Pro 7i
+modelName: Yoga Pro 7i Gen 9 (14型 Intel)
+modelNumber: '83E2'
+formFactor: clamshell
+releaseDate: '2024-03-01'
+os: { family: Windows, edition: Home, version: '11' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://p4-ofp.static.pub/ShareResource/JPResource/JP-Images/product-img/lenovo-yoga-pro-7i-gen-9-14-inch-intel-560x450-hero-4.png
+productUrl: https://www.lenovo.com/jp/ja/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-9-14-inch-snapdragon/len101y0040
+cpu: { vendor: Intel, family: Core Ultra Series 1, model: Core Ultra 7 155H, isa: x86-64, npuTops: 11, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 32, type: LPDDR5X, speedMTps: 7467, soldered: true, maxCapacityGB: 32 }
+storage: { capacityGB: 1024, interface: 'NVMe PCIe Gen4', userReplaceable: true }
+display: { sizeInch: 14.5, resolution: { width: 3072, height: 1920 }, panelType: IPS, touch: false, aspectRatio: '16:10', refreshRateHz: 90, brightnessNits: 400, pen: false }
+connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: none } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 2, spec: 'Thunderbolt 4' }, usbA: 1, hdmi: 'HDMI 2.1', cardReader: null, audioJack: true }
+battery: { capacityWh: 73, ratedLife: [], charger: { watt: 100, usbPd: true } }
+physical: { weightG: 1590, dimensions: { width: 325.5, depth: 226.5, thicknessMax: 16.6 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: FHD, ir: true, privacyShutter: true }, windowsHello: { face: true, fingerprint: false }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 249920, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Lenovo, url: https://www.lenovo.com/jp/ja/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-9-14-inch-snapdragon/len101y0040, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Lenovo, url: https://www.lenovo.com/jp/ja/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-9-14-inch-snapdragon/len101y0040, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

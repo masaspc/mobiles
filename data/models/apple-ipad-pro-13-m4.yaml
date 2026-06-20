@@ -1,0 +1,26 @@
+id: apple-ipad-pro-13-m4
+maker: Apple
+series: iPad Pro
+modelName: iPad Pro 13インチ (M4)
+modelNumber: MVX23J/A
+formFactor: tablet
+releaseDate: '2024-05-15'
+os: { family: iPadOS, edition: null, version: '18' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://www.apple.com/v/ipad-pro/aw/images/meta/ipad-pro_overview__bu4cql27diaa_og.png?202605210051
+productUrl: https://www.apple.com/jp/ipad-pro/
+cpu: { vendor: Apple, family: Apple M4, model: M4, isa: ARM64, npuTops: 38, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 8, type: unified, speedMTps: null, soldered: true, maxCapacityGB: 16 }
+storage: { capacityGB: 256, interface: SSD, userReplaceable: false }
+display: { sizeInch: 13, resolution: { width: 2752, height: 2064 }, panelType: OLED, touch: true, aspectRatio: '4:3', refreshRateHz: 120, brightnessNits: 1000, pen: true }
+connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: '5G Sub-6' } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 1, spec: Thunderbolt }, usbA: 0, hdmi: null, cardReader: null, audioJack: false }
+battery: { capacityWh: 38.99, ratedLife: [{ method: Apple Wi-Fi web browsing or video playback, hours: 10 }], charger: { watt: 20, usbPd: true } }
+physical: { weightG: 579, dimensions: { width: 281.6, depth: 215.5, thicknessMax: 5.1 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: '12MP', ir: false, privacyShutter: false }, windowsHello: { face: true, fingerprint: false }, keyboard: null }
+pricing: { priceJpy: 218800, priceType: msrp, variants: [] }
+sources:
+  - { publisher: Apple, url: https://www.apple.com/jp/ipad-pro/specs/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: Apple, url: https://www.apple.com/jp/ipad-pro/, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'

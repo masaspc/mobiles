@@ -1,0 +1,26 @@
+id: hp-elitebook-1040-g11
+maker: HP
+series: EliteBook 1040 G11
+modelName: EliteBook 1040 G11
+modelNumber: A1VR2PA
+formFactor: clamshell
+releaseDate: '2024-04-01'
+os: { family: Windows, edition: Pro, version: '11' }
+copilotPlusPc: false
+imageKey: null
+imageUrl: https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/notebooks/business/elitebook_1040_g11/images/move3_full.jpg
+productUrl: https://jp.ext.hp.com/notebooks/business/elitebook_1040_g11/
+cpu: { vendor: Intel, family: Core Ultra Series 1, model: Core Ultra 7 155H, isa: x86-64, npuTops: 11, benchmarks: { geekbench6Multi: null } }
+memory: { capacityGB: 16, type: LPDDR5X, speedMTps: 7467, soldered: true, maxCapacityGB: 64 }
+storage: { capacityGB: 512, interface: 'NVMe PCIe Gen4', userReplaceable: true }
+display: { sizeInch: 14, resolution: { width: 1920, height: 1200 }, panelType: IPS, touch: false, aspectRatio: '16:10', refreshRateHz: 60, brightnessNits: 400, pen: false }
+connectivity: { wifi: { standard: Wi-Fi 6E }, bluetooth: '5.3', wwan: { type: '5G Sub-6' } }
+ports: { thunderbolt: true, usbPd: true, usbC: { count: 2, spec: 'Thunderbolt 4' }, usbA: 2, hdmi: 'HDMI 2.1', cardReader: null, audioJack: true }
+battery: { capacityWh: 56, ratedLife: [], charger: { watt: 65, usbPd: true } }
+physical: { weightG: 1180, dimensions: { width: 313.9, depth: 219.9, thicknessMax: 10.5 }, chassisMaterial: アルミニウム }
+io: { webcam: { resolution: '5MP', ir: true, privacyShutter: true }, windowsHello: { face: true, fingerprint: true }, keyboard: { backlight: true, layout: JIS } }
+pricing: { priceJpy: 274780, priceType: msrp, variants: [] }
+sources:
+  - { publisher: HP, url: https://jp.ext.hp.com/notebooks/business/elitebook_1040_g11/, retrievedAt: '2026-06-20' }
+  - { field: image, publisher: HP, url: https://jp.ext.hp.com/notebooks/business/elitebook_1040_g11/, retrievedAt: '2026-06-20' }
+lastUpdated: '2026-06-20'
